@@ -15,13 +15,13 @@ function parseFilters(params: URLSearchParams): EventFilters {
     seen.add(key);
     switch (key) {
       case 'mode':
-        if (value !== 'online' && value !== 'in-person' && value !== 'hybrid') {
+        if (value !== 'online' && value !== 'in-person' && value !== 'hybrid' && value !== 'unknown') {
           throw new Error('Invalid mode');
         }
         filters.mode = value;
         break;
       case 'eligibility':
-        if (value !== 'open' && value !== 'students') throw new Error('Invalid eligibility');
+        if (value !== 'open' && value !== 'student-only' && value !== 'students' && value !== 'unknown') throw new Error('Invalid eligibility');
         filters.eligibility = value;
         break;
       case 'after':

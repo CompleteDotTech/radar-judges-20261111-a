@@ -6,8 +6,8 @@ test('rejects empty, repeated, unknown and impossible filters before invoking de
   const filter = vi.fn(() => dataset.events);
   const app = createApi(dataset, filter);
   for (const query of [
-    'eligibility=', 'after=', 'mode=unknown', 'mode=all',
-    'eligibility=unknown', 'eligibility=student-only',
+    'eligibility=', 'after=', 'mode=all',
+    'eligibility=all', 'eligibility=remote',
     'eligibility=open&eligibility=open', 'after=2026-01-01&after=2026-01-01',
     'after=2025-02-29', 'after=1900-02-29', 'after=2026-04-31',
     'after=2026-00-01', 'after=2026-13-01', 'after=2026-01-00',
@@ -23,8 +23,8 @@ test('rejects empty, repeated, unknown and impossible filters before invoking de
 test('accepts leap days and all documented filter values without normalizing options', async () => {
   const filter = vi.fn(async () => []);
   const app = createApi(dataset, filter);
-  for (const mode of ['online', 'in-person', 'hybrid']) {
-    for (const eligibility of ['open', 'students']) {
+  for (const mode of ['online', 'in-person', 'hybrid', 'unknown']) {
+    for (const eligibility of ['open', 'student-only', 'students', 'unknown']) {
       const response = await app.request(`/api/events?mode=${mode}&eligibility=${eligibility}&after=2000-02-29`);
       expect(response.status).toBe(200);
       expect(filter).toHaveBeenLastCalledWith(dataset.events, { mode, eligibility, after: '2000-02-29' });

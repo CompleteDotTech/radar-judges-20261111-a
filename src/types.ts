@@ -1,8 +1,8 @@
 import type { Hono } from 'hono';
 
-export type FieldStatus = 'verified' | 'unknown' | 'conflict';
+export type FieldStatus = 'verified' | 'unknown' | 'conflicting' | 'conflict';
 export type AttendanceMode = 'online' | 'in-person' | 'hybrid';
-export type Eligibility = 'open' | 'students';
+export type Eligibility = 'open' | 'student-only';
 export type FieldName = 'location' | 'attendanceMode' | 'eventDates' | 'deadline' | 'timezone' | 'eligibility' | 'prizes' | 'judging' | 'deliverables';
 export interface ResearchField {
   value: string | null;
@@ -66,8 +66,8 @@ export interface Dataset {
   shortfall: number;
 }
 export interface EventFilters {
-  mode?: AttendanceMode;
-  eligibility?: Eligibility;
+  mode?: AttendanceMode | 'unknown';
+  eligibility?: Eligibility | 'students' | 'unknown';
   after?: string;
 }
 /** API implementations must await this dependency: app.ts loads it on first use. */

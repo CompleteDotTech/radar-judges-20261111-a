@@ -1,13 +1,10 @@
 import type { EventFilters, RadarEvent, ResearchField } from '../types.js';
 
-/** The pure filter additionally supports selecting uncertain category claims. */
-export type EvidenceFilters = Omit<EventFilters, 'mode' | 'eligibility'> & {
-  mode?: EventFilters['mode'] | 'unknown';
-  eligibility?: EventFilters['eligibility'] | 'unknown';
-};
+/** Shared API and pure-filter options. */
+export type EvidenceFilters = EventFilters;
 
 const modes = ['online', 'in-person', 'hybrid'];
-const eligibilities = ['open', 'students'];
+const eligibilities = ['open', 'student-only'];
 
 function calendarDate(value: string): boolean {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
@@ -24,10 +21,10 @@ function deadlineInstant(value: string | null): number {
   return Date.parse(value);
 }
 
-function categoryMatches(field: ResearchField, selection: string | undefined, categories: string[]): boolean {
+function categoryMatches(field: ResearchField | undefined, selection: string | undefined, categories: string[]): boolean {
   if (selection === undefined) return true;
-  const known = field.status === 'verified' && field.value !== null && categories.includes(field.value);
-  return selection === 'unknown' ? !known : known && field.value === selection;
+  const known = field?.status === 'verified' && field.value !== null && categories.includes(field.value);
+  return selection === 'unknown' ? !known : known && field?.value === selection;
 }
 
 /** Combine evidence-backed predicates, retaining the original objects and order. */
@@ -40,12 +37,12 @@ export function filterEvents(events: RadarEvent[], filters: EvidenceFilters = {}
   }
   const { mode, eligibility, after } = filters;
   if (mode !== undefined && ![...modes, 'unknown'].includes(mode)) throw new Error('Invalid mode');
-  if (eligibility !== undefined && ![...eligibilities, 'unknown'].includes(eligibility)) throw new Error('Invalid eligibility');
+  if (eligibility !== undefined && ![...eligibilities, 'students', 'unknown'].includes(eligibility)) throw new Error('Invalid eligibility');
   if (after !== undefined && (typeof after !== 'string' || !calendarDate(after))) throw new Error('Invalid after date');
   const boundary = after === undefined ? undefined : Date.parse(`${after}T00:00:00.000Z`);
 
   return events.filter((event) => categoryMatches(event.fields.attendanceMode, mode, modes)
-    && categoryMatches(event.fields.eligibility, eligibility, eligibilities)
+    && categoryMatches(event.fields.eligibility, eligibility === 'students' ? 'student-only' : eligibility, eligibilities)
     && (boundary === undefined || (event.fields.deadline.status === 'verified'
       && deadlineInstant(event.fields.deadline.value) >= boundary)));
 }

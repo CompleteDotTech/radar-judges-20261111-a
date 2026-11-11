@@ -5,7 +5,7 @@ import { dataset, field, fixture, ids } from './data.js';
 
 test('mode and eligibility combinations use AND, preserve order and do not mutate', () => {
   const modes: AttendanceMode[] = ['online', 'in-person', 'hybrid'];
-  const eligibilities: Eligibility[] = ['open', 'students'];
+  const eligibilities: Eligibility[] = ['open', 'student-only'];
   const events = modes.flatMap((m) => eligibilities.map((e) => fixture(`${m}-${e}`, m, e, '2026-12-01T00:00:00Z')));
   const before = structuredClone(events);
   for (const mode of [undefined, ...modes]) for (const eligibility of [undefined, ...eligibilities]) {

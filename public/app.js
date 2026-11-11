@@ -41,8 +41,9 @@ function claim(event, fieldName, research = dataset) {
   const group = el('div', undefined, 'claim');
   const title = el('dt', labels[fieldName]);
   title.append(el('span', field.status, `status ${field.status}`));
-  const value = el('dd', field.value ?? 'Unknown — not verified in this research.');
-  if (field.status === 'conflict') value.append(el('p', 'Sources conflict. Review the evidence before relying on this claim.'));
+  const conflicting = ['conflict', 'conflicting'].includes(field.status);
+  const value = el('dd', conflicting ? 'Conflicting source statements. Review all competing findings.' : field.value ?? 'Unknown — not verified in this research.');
+  if (!conflicting && field.status !== 'verified' && field.value !== null) value.append(el('p', 'Not verified in this research.'));
   for (const findingId of field.findingIds) {
     const finding = research.findings.find(item => item.id === findingId);
     const source = finding && research.sources.find(item => item.id === finding.sourceId);
@@ -54,6 +55,14 @@ function claim(event, fieldName, research = dataset) {
     value.append(citation);
   }
   group.append(title, value); return group;
+}
+function closedExample(event) {
+  const deadline = event.fields.deadline;
+  if (deadline.status !== 'verified' || !deadline.value) return null;
+  const instant = Date.parse(deadline.value);
+  const reference = Date.parse(dataset.createdAt);
+  return Number.isFinite(instant) && Number.isFinite(reference) && instant < reference
+    ? el('p', `Historical / closed example — submissions closed before this research snapshot (${dataset.createdAt}).`, 'note') : null;
 }
 function saveButton(event) {
   const node = button('', () => {
@@ -84,7 +93,10 @@ function renderCards() {
     for (const key of ['attendanceMode', 'deadline', 'timezone', 'eligibility']) fields.append(claim(event, key));
     const actions = el('div', undefined, 'actions');
     actions.append(button('View details →', () => openEvent(event.id, false)), button('Evidence', () => openEvent(event.id, true), true));
-    card.append(top, el('h3', event.name), official, fields, actions);
+    card.append(top, el('h3', event.name));
+    const closed = closedExample(event);
+    if (closed) card.append(closed);
+    card.append(official, fields, actions);
     $('cards').append(card);
   }
   if (!visible.length) $('cards').append(el('p', 'No events match these filters. Try resetting the filters or saving an event first.', 'empty'));
@@ -100,6 +112,8 @@ async function openEvent(id, showEvidence) {
     if (version !== panelVersion) return;
     const event = research.event;
     target.replaceChildren(button('Close ×', () => { ++panelVersion; target.hidden = true; $('cards').scrollIntoView({ block: 'start' }); }, true), el('p', showEvidence ? 'THE SOURCE NOTES' : 'A CLOSER LOOK', 'eyebrow'), el('h2', event.name), link('Read official rules and restrictions ↗', event.officialUrl));
+    const closed = closedExample(event);
+    if (closed) target.append(closed);
     if (!showEvidence) {
       target.append(el('p', 'Eligibility is a category, not confirmation that you qualify. Read the official restrictions.', 'note'));
       const fields = el('dl', undefined, 'fields');
