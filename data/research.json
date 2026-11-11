@@ -1,0 +1,1294 @@
+{
+  "schemaVersion": 1,
+  "runId": "radar-judges-2026-11-11T05-25-17-039Z-61894933",
+  "datasetId": "dataset-0b877a988547fcb84170",
+  "createdAt": "2026-11-11T05:27:13.069Z",
+  "researchMode": "fresh",
+  "events": [
+    {
+      "id": "event-dc2e3f99c503",
+      "name": "PayPal AI Hackathon",
+      "officialUrl": "https://paypalaihackathon.devpost.com/rules",
+      "fields": {
+        "location": {
+          "value": "Online; void in Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea, and any other comprehensively sanctioned country",
+          "status": "verified",
+          "findingIds": [
+            "finding-38dbdc79596d9ba6"
+          ]
+        },
+        "attendanceMode": {
+          "value": "online",
+          "status": "verified",
+          "findingIds": [
+            "finding-55040ef8e701dbde"
+          ]
+        },
+        "eventDates": {
+          "value": "Submission Period: October 1, 2026 – November 12, 2026; Judging Period: December 1, 2026 – December 15, 2026; Winners announced on or around December 21, 2026",
+          "status": "verified",
+          "findingIds": [
+            "finding-3737ba093fac4147"
+          ]
+        },
+        "deadline": {
+          "value": "2026-11-12T12:00:00-08:00",
+          "status": "verified",
+          "findingIds": [
+            "finding-cec46e4ed72a22c2"
+          ]
+        },
+        "timezone": {
+          "value": "Pacific Time",
+          "status": "verified",
+          "findingIds": [
+            "finding-551adcc56ff257ae"
+          ]
+        },
+        "eligibility": {
+          "value": "open",
+          "status": "verified",
+          "findingIds": [
+            "finding-66545947940fd6f9"
+          ]
+        },
+        "prizes": {
+          "value": "Cash and credit prizes including a $12,000 USD 1st Place Grand Prize, $8,000 USD 2nd Place, $5,000 USD 3rd Place, several $5,000 USD Honorable Mention category prizes, and multiple sponsor-specific prizes such as cash, APIMatic subscriptions, and Render credits.",
+          "status": "verified",
+          "findingIds": [
+            "finding-2d811051cbe870a3"
+          ]
+        },
+        "judging": {
+          "value": "Judging uses a two-stage process; eligible submissions that pass an initial pass/fail viability check are scored by judges in Stage Two based on equally weighted criteria: Technological Implementation, Design, Potential Impact, Innovation/Idea, and Presentation, with tie-breaking based on higher scores in the listed criteria.",
+          "status": "verified",
+          "findingIds": [
+            "finding-30b76737ae042260"
+          ]
+        },
+        "deliverables": {
+          "value": "Required deliverables include: a project that integrates the PayPal developer platform with an AI tool, a text description explaining features and functionality, access to a functional demo via setup instructions or hosted URL, a public open-source code repository with all necessary source code, assets, instructions, and license, and a demonstration video under three minutes showing the project functioning on its target device and hosted publicly on YouTube.",
+          "status": "verified",
+          "findingIds": [
+            "finding-7d1dc3b8c3fcf17a"
+          ]
+        }
+      }
+    },
+    {
+      "id": "event-0fdee1a85856",
+      "name": "Global AI Builder’s Challenge",
+      "officialUrl": "https://global-ai-builders-challenge.devpost.com",
+      "fields": {
+        "location": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "attendanceMode": {
+          "value": "online",
+          "status": "verified",
+          "findingIds": [
+            "finding-988fd8fd1fd3ced9"
+          ]
+        },
+        "eventDates": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "deadline": {
+          "value": "2026-11-28T15:00:00-08:00",
+          "status": "verified",
+          "findingIds": [
+            "finding-f80008122afb866d"
+          ]
+        },
+        "timezone": {
+          "value": "America/Los_Angeles",
+          "status": "verified",
+          "findingIds": [
+            "finding-cc22235955e9885c"
+          ]
+        },
+        "eligibility": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "prizes": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "judging": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "deliverables": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        }
+      }
+    },
+    {
+      "id": "event-086660a38eab",
+      "name": "Build, Ship, Shape: Amazon Developer Hackathon 2026",
+      "officialUrl": "https://amazonappdev2026.devpost.com/rules",
+      "fields": {
+        "location": {
+          "value": "Online; sponsored from Seattle, Washington, USA",
+          "status": "verified",
+          "findingIds": [
+            "finding-bfad2c986d069d9b"
+          ]
+        },
+        "attendanceMode": {
+          "value": "online",
+          "status": "verified",
+          "findingIds": [
+            "finding-3a32168baa629856"
+          ]
+        },
+        "eventDates": {
+          "value": "Submission Period: August 31, 2026 – October 23, 2026; Judging Period: November 9, 2026 – November 20, 2026; Winners announced on or around December 3, 2026",
+          "status": "verified",
+          "findingIds": [
+            "finding-a439b51245f0fe76"
+          ]
+        },
+        "deadline": {
+          "value": "2026-10-23T12:00:00-07:00",
+          "status": "verified",
+          "findingIds": [
+            "finding-5d405d11d6a31854"
+          ]
+        },
+        "timezone": {
+          "value": "Pacific Time",
+          "status": "verified",
+          "findingIds": [
+            "finding-2fe7955807c22af7"
+          ]
+        },
+        "eligibility": {
+          "value": "open",
+          "status": "verified",
+          "findingIds": [
+            "finding-33627e0d3b5e8265"
+          ]
+        },
+        "prizes": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "judging": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "deliverables": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        }
+      }
+    },
+    {
+      "id": "event-533e48bce737",
+      "name": "Reactive Omni Buildathon",
+      "officialUrl": "https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+      "fields": {
+        "location": {
+          "value": "Virtual",
+          "status": "verified",
+          "findingIds": [
+            "finding-64f67d0612e92675"
+          ]
+        },
+        "attendanceMode": {
+          "value": "online",
+          "status": "verified",
+          "findingIds": [
+            "finding-f60170755fa70104"
+          ]
+        },
+        "eventDates": {
+          "value": "From November 5th to December 5th, 2026",
+          "status": "verified",
+          "findingIds": [
+            "finding-8f0449eab86e517b"
+          ]
+        },
+        "deadline": {
+          "value": "2026-12-05T20:00:00Z",
+          "status": "verified",
+          "findingIds": [
+            "finding-38864fd33e55a088"
+          ]
+        },
+        "timezone": {
+          "value": "UTC",
+          "status": "verified",
+          "findingIds": [
+            "finding-3974727e871cf133"
+          ]
+        },
+        "eligibility": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "prizes": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "judging": {
+          "value": "Entries are scored from 1 to 5 on four equally weighted criteria (Execution, Integration, Usefulness, Craft) and judged by the Reactive team, with any guest judges to be announced on the page.",
+          "status": "verified",
+          "findingIds": [
+            "finding-d46c3d15dabb07da"
+          ]
+        },
+        "deliverables": {
+          "value": "Submissions must be made on the event page and include a link to a public repository, deployed contract addresses, a few transaction hashes showing the full loop from origin event to callback, and a demo video under three minutes. Repositories must be public and open-source by submission time.",
+          "status": "verified",
+          "findingIds": [
+            "finding-4606fb2ed2ddf760"
+          ]
+        }
+      }
+    },
+    {
+      "id": "event-a3a1819b1825",
+      "name": "GreenMind Sustainable AI Hackathon 2.0",
+      "officialUrl": "https://greencomputingfoundation.org/greenmind-hackathon",
+      "fields": {
+        "location": {
+          "value": "Global (online) and Sir M V School of Architecture, Design and Planning, Bengaluru, India",
+          "status": "verified",
+          "findingIds": [
+            "finding-7cb7a2bc11cae89a"
+          ]
+        },
+        "attendanceMode": {
+          "value": "hybrid",
+          "status": "verified",
+          "findingIds": [
+            "finding-6756bbeb14e745e7"
+          ]
+        },
+        "eventDates": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "deadline": {
+          "value": "2026-11-30T23:59:00+05:30",
+          "status": "verified",
+          "findingIds": [
+            "finding-3bb5cdd0d82b8bc9"
+          ]
+        },
+        "timezone": {
+          "value": "Asia/Kolkata",
+          "status": "verified",
+          "findingIds": [
+            "finding-b0b09dc9c050b18d"
+          ]
+        },
+        "eligibility": {
+          "value": "open",
+          "status": "verified",
+          "findingIds": [
+            "finding-260b6aff1eedaa56"
+          ]
+        },
+        "prizes": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "judging": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        },
+        "deliverables": {
+          "value": null,
+          "status": "unknown",
+          "findingIds": []
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-requirements-2a2ae0098354",
+      "url": "https://paypalaihackathon.devpost.com/rules",
+      "title": "PayPal AI Hackathon",
+      "retrievedAt": "2026-11-11T05:26:20.396Z",
+      "query": "PayPal AI Hackathon: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+      "contentHash": "00eb72432cb6c9c3d079c6bdee83c643aa443e66c1753ae14122ece43e242b37",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-2a2ae0098354.md"
+    },
+    {
+      "id": "source-requirements-22a831aa55af",
+      "url": "https://global-ai-builders-challenge.devpost.com",
+      "title": "Global AI Builder’s Challenge",
+      "retrievedAt": "2026-11-11T05:26:25.222Z",
+      "query": "Global AI Builder’s Challenge: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+      "contentHash": "a183c5c41071f93f678b94b2f630393b5b9268ea216bdfa8f2449b5270e5362c",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-22a831aa55af.md"
+    },
+    {
+      "id": "source-requirements-1c8a06ddddea",
+      "url": "https://amazonappdev2026.devpost.com/rules",
+      "title": "Build, Ship, Shape: Amazon Developer Hackathon 2026",
+      "retrievedAt": "2026-11-11T05:26:31.264Z",
+      "query": "Build, Ship, Shape: Amazon Developer Hackathon 2026: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+      "contentHash": "fd3c550a118fcd548bbb5cc73a2018663cdd8e9d3d4ee78a9aceb41def1bf429",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-1c8a06ddddea.md"
+    },
+    {
+      "id": "source-requirements-4ba6bd4bd7ba",
+      "url": "https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+      "title": "Reactive Omni Buildathon",
+      "retrievedAt": "2026-11-11T05:26:37.876Z",
+      "query": "Reactive Omni Buildathon: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+      "contentHash": "cc3b10f93b043f75c04e3a4a1f4acf1ed82d486211c27c01b5259cfcd84c72a0",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-4ba6bd4bd7ba.md"
+    },
+    {
+      "id": "source-requirements-432f30da71ae",
+      "url": "https://greencomputingfoundation.org/greenmind-hackathon",
+      "title": "GreenMind Sustainable AI Hackathon 2.0",
+      "retrievedAt": "2026-11-11T05:26:39.940Z",
+      "query": "GreenMind Sustainable AI Hackathon 2.0: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+      "contentHash": "35332f8d8cf6fd810718e9f8d06c26991e5aa894a8d585642b784b8fd17a541f",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-432f30da71ae.md"
+    },
+    {
+      "id": "source-comparison-2a2ae0098354",
+      "url": "https://paypalaihackathon.devpost.com/rules",
+      "title": "PayPal AI Hackathon",
+      "retrievedAt": "2026-11-11T05:26:21.303Z",
+      "query": "PayPal AI Hackathon: verify prizes, judging, deliverables against official page",
+      "contentHash": "00eb72432cb6c9c3d079c6bdee83c643aa443e66c1753ae14122ece43e242b37",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-2a2ae0098354.md"
+    },
+    {
+      "id": "source-comparison-22a831aa55af",
+      "url": "https://global-ai-builders-challenge.devpost.com",
+      "title": "Global AI Builder’s Challenge",
+      "retrievedAt": "2026-11-11T05:26:32.696Z",
+      "query": "Global AI Builder’s Challenge: verify prizes, judging, deliverables against official page",
+      "contentHash": "a183c5c41071f93f678b94b2f630393b5b9268ea216bdfa8f2449b5270e5362c",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-22a831aa55af.md"
+    },
+    {
+      "id": "source-comparison-1c8a06ddddea",
+      "url": "https://amazonappdev2026.devpost.com/rules",
+      "title": "Build, Ship, Shape: Amazon Developer Hackathon 2026",
+      "retrievedAt": "2026-11-11T05:26:41.426Z",
+      "query": "Build, Ship, Shape: Amazon Developer Hackathon 2026: verify prizes, judging, deliverables against official page",
+      "contentHash": "fd3c550a118fcd548bbb5cc73a2018663cdd8e9d3d4ee78a9aceb41def1bf429",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-1c8a06ddddea.md"
+    },
+    {
+      "id": "source-comparison-4ba6bd4bd7ba",
+      "url": "https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+      "title": "Reactive Omni Buildathon",
+      "retrievedAt": "2026-11-11T05:26:54.882Z",
+      "query": "Reactive Omni Buildathon: verify prizes, judging, deliverables against official page",
+      "contentHash": "cc3b10f93b043f75c04e3a4a1f4acf1ed82d486211c27c01b5259cfcd84c72a0",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-4ba6bd4bd7ba.md"
+    },
+    {
+      "id": "source-comparison-432f30da71ae",
+      "url": "https://greencomputingfoundation.org/greenmind-hackathon",
+      "title": "GreenMind Sustainable AI Hackathon 2.0",
+      "retrievedAt": "2026-11-11T05:26:58.878Z",
+      "query": "GreenMind Sustainable AI Hackathon 2.0: verify prizes, judging, deliverables against official page",
+      "contentHash": "35332f8d8cf6fd810718e9f8d06c26991e5aa894a8d585642b784b8fd17a541f",
+      "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-432f30da71ae.md"
+    }
+  ],
+  "findings": [
+    {
+      "id": "finding-38dbdc79596d9ba6",
+      "eventId": "event-dc2e3f99c503",
+      "role": "requirements",
+      "field": "location",
+      "value": "Online; void in Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea, and any other comprehensively sanctioned country",
+      "sourceId": "source-requirements-2a2ae0098354",
+      "quote": "Individuals who are residents of, or Organizations domiciled in, a country, state, province or territory where the laws of the United States or local law prohibits participating or receiving a prize in the Hackathon (including, but not limited to, Brazil, Quebec, Russia, Crimea, Cuba, Iran, and North Korea and any other country which is comprehensively sanctioned by the U.S. Treasury’s Office of Foreign Assets Control)",
+      "status": "verified"
+    },
+    {
+      "id": "finding-55040ef8e701dbde",
+      "eventId": "event-dc2e3f99c503",
+      "role": "requirements",
+      "field": "attendanceMode",
+      "value": "online",
+      "sourceId": "source-requirements-2a2ae0098354",
+      "quote": "Entrants may enter by visiting paypalaihackathon.devpost.com (“Hackathon Website”) and following the below steps:",
+      "status": "verified"
+    },
+    {
+      "id": "finding-3737ba093fac4147",
+      "eventId": "event-dc2e3f99c503",
+      "role": "requirements",
+      "field": "eventDates",
+      "value": "Submission Period: October 1, 2026 – November 12, 2026; Judging Period: December 1, 2026 – December 15, 2026; Winners announced on or around December 21, 2026",
+      "sourceId": "source-requirements-2a2ae0098354",
+      "quote": "Submission Period: Thursday Oct 1, 2026 (9:15 am Pacific Time) – Thursday Nov 12, 2026 (12:00 pm Pacific Time) (“Submission Period”).\n\nJudging Period: Tuesday Dec 1, 2026 (2:00 pm Pacific Time) – Tuesday Dec 15, 2026 (8:00 am Pacific Time) (“Judging Period”).\n\nWinners Announced: On or around Monday, Dec 21, 2026 (2:00 pm Pacific Time).",
+      "status": "verified"
+    },
+    {
+      "id": "finding-cec46e4ed72a22c2",
+      "eventId": "event-dc2e3f99c503",
+      "role": "requirements",
+      "field": "deadline",
+      "value": "2026-11-12T12:00:00-08:00",
+      "sourceId": "source-requirements-2a2ae0098354",
+      "quote": "Thursday Nov 12, 2026 (12:00 pm Pacific Time)",
+      "status": "verified"
+    },
+    {
+      "id": "finding-551adcc56ff257ae",
+      "eventId": "event-dc2e3f99c503",
+      "role": "requirements",
+      "field": "timezone",
+      "value": "Pacific Time",
+      "sourceId": "source-requirements-2a2ae0098354",
+      "quote": "Pacific Time",
+      "status": "verified"
+    },
+    {
+      "id": "finding-66545947940fd6f9",
+      "eventId": "event-dc2e3f99c503",
+      "role": "requirements",
+      "field": "eligibility",
+      "value": "open",
+      "sourceId": "source-requirements-2a2ae0098354",
+      "quote": "The Hackathon IS open to:\n\n- Individuals who are at least the age of majority where they reside as of the time of entry (“Eligible Individuals”);\n- Teams of Eligible Individuals (“Teams”); and\n- Organizations (including corporations, not-for-profit corporations and other nonprofit organizations, limited liability companies, partnerships, and other legal entities) that exist and have been organized or incorporated at the time of entry.",
+      "status": "verified"
+    },
+    {
+      "id": "finding-988fd8fd1fd3ced9",
+      "eventId": "event-0fdee1a85856",
+      "role": "requirements",
+      "field": "attendanceMode",
+      "value": "online",
+      "sourceId": "source-requirements-22a831aa55af",
+      "quote": "Global AI Builder’s Challenge is a free online hackathon",
+      "status": "verified"
+    },
+    {
+      "id": "finding-f80008122afb866d",
+      "eventId": "event-0fdee1a85856",
+      "role": "requirements",
+      "field": "deadline",
+      "value": "2026-11-28T15:00:00-08:00",
+      "sourceId": "source-requirements-22a831aa55af",
+      "quote": "The submission deadline is November 28, 2026, at 3:00 p.m. PST (America/Los_Angeles).",
+      "status": "verified"
+    },
+    {
+      "id": "finding-cc22235955e9885c",
+      "eventId": "event-0fdee1a85856",
+      "role": "requirements",
+      "field": "timezone",
+      "value": "America/Los_Angeles",
+      "sourceId": "source-requirements-22a831aa55af",
+      "quote": "The submission deadline is November 28, 2026, at 3:00 p.m. PST (America/Los_Angeles).",
+      "status": "verified"
+    },
+    {
+      "id": "finding-bfad2c986d069d9b",
+      "eventId": "event-086660a38eab",
+      "role": "requirements",
+      "field": "location",
+      "value": "Online; sponsored from Seattle, Washington, USA",
+      "sourceId": "source-requirements-1c8a06ddddea",
+      "quote": "Sponsor: Amazon Developer, 410 Terry Avenue North, Seattle, Washington 98109",
+      "status": "verified"
+    },
+    {
+      "id": "finding-3a32168baa629856",
+      "eventId": "event-086660a38eab",
+      "role": "requirements",
+      "field": "attendanceMode",
+      "value": "online",
+      "sourceId": "source-requirements-1c8a06ddddea",
+      "quote": "Entrants may enter by visiting [amazonappdev2026.devpost.com](http://amazonappdev2026.devpost.com) (“Hackathon Website”) and following the below steps:",
+      "status": "verified"
+    },
+    {
+      "id": "finding-a439b51245f0fe76",
+      "eventId": "event-086660a38eab",
+      "role": "requirements",
+      "field": "eventDates",
+      "value": "Submission Period: August 31, 2026 – October 23, 2026; Judging Period: November 9, 2026 – November 20, 2026; Winners announced on or around December 3, 2026",
+      "sourceId": "source-requirements-1c8a06ddddea",
+      "quote": "Submission Period: Monday, August 31, 2026 (10:15 am Pacific Time) – Friday, October 23, 2026 (12:00 pm Pacific Time) (“Submission Period”).\n\nJudging Period: Monday, November 9, 2026 (12:00 pm Pacific Time) – Friday, November 20, 2026 (12:00 pm Pacific Time) (“Judging Period”).\n\nWinners Announced: On or around Thursday, December 3, 2026 (12:00 pm Pacific Time).",
+      "status": "verified"
+    },
+    {
+      "id": "finding-5d405d11d6a31854",
+      "eventId": "event-086660a38eab",
+      "role": "requirements",
+      "field": "deadline",
+      "value": "2026-10-23T12:00:00-07:00",
+      "sourceId": "source-requirements-1c8a06ddddea",
+      "quote": "Friday, October 23, 2026 (12:00 pm Pacific Time) (“Submission Period”).",
+      "status": "verified"
+    },
+    {
+      "id": "finding-2fe7955807c22af7",
+      "eventId": "event-086660a38eab",
+      "role": "requirements",
+      "field": "timezone",
+      "value": "Pacific Time",
+      "sourceId": "source-requirements-1c8a06ddddea",
+      "quote": "(10:15 am Pacific Time)",
+      "status": "verified"
+    },
+    {
+      "id": "finding-33627e0d3b5e8265",
+      "eventId": "event-086660a38eab",
+      "role": "requirements",
+      "field": "eligibility",
+      "value": "open",
+      "sourceId": "source-requirements-1c8a06ddddea",
+      "quote": "The Hackathon IS open to:\n\n- Individuals who are at least the age of majority where they reside as of the time of entry (“Eligible Individuals”);\n- Teams of Eligible Individuals (“Teams”); and\n- Organizations (including corporations, not-for-profit corporations and other nonprofit organizations, limited liability companies, partnerships, and other legal entities) that exist and have been organized or incorporated at the time of entry.",
+      "status": "verified"
+    },
+    {
+      "id": "finding-64f67d0612e92675",
+      "eventId": "event-533e48bce737",
+      "role": "requirements",
+      "field": "location",
+      "value": "Virtual",
+      "sourceId": "source-requirements-4ba6bd4bd7ba",
+      "quote": "Virtual",
+      "status": "verified"
+    },
+    {
+      "id": "finding-f60170755fa70104",
+      "eventId": "event-533e48bce737",
+      "role": "requirements",
+      "field": "attendanceMode",
+      "value": "online",
+      "sourceId": "source-requirements-4ba6bd4bd7ba",
+      "quote": "Virtual",
+      "status": "verified"
+    },
+    {
+      "id": "finding-8f0449eab86e517b",
+      "eventId": "event-533e48bce737",
+      "role": "requirements",
+      "field": "eventDates",
+      "value": "From November 5th to December 5th, 2026",
+      "sourceId": "source-requirements-4ba6bd4bd7ba",
+      "quote": "From **November 5th** to **December 5th**",
+      "status": "verified"
+    },
+    {
+      "id": "finding-38864fd33e55a088",
+      "eventId": "event-533e48bce737",
+      "role": "requirements",
+      "field": "deadline",
+      "value": "2026-12-05T20:00:00Z",
+      "sourceId": "source-requirements-4ba6bd4bd7ba",
+      "quote": "Deadline\n\n2026/12/05 20:00",
+      "status": "verified"
+    },
+    {
+      "id": "finding-3974727e871cf133",
+      "eventId": "event-533e48bce737",
+      "role": "requirements",
+      "field": "timezone",
+      "value": "UTC",
+      "sourceId": "source-requirements-4ba6bd4bd7ba",
+      "quote": "event timeline (UTC)",
+      "status": "verified"
+    },
+    {
+      "id": "finding-7cb7a2bc11cae89a",
+      "eventId": "event-a3a1819b1825",
+      "role": "requirements",
+      "field": "location",
+      "value": "Global (online) and Sir M V School of Architecture, Design and Planning, Bengaluru, India",
+      "sourceId": "source-requirements-432f30da71ae",
+      "quote": "**1 – 15 December 2026** · Global, online qualifiers\n Grand Finale venue: **Sir M V School of Architecture, Design and Planning, Bengaluru**",
+      "status": "verified"
+    },
+    {
+      "id": "finding-6756bbeb14e745e7",
+      "eventId": "event-a3a1819b1825",
+      "role": "requirements",
+      "field": "attendanceMode",
+      "value": "hybrid",
+      "sourceId": "source-requirements-432f30da71ae",
+      "quote": "**1 – 15 December 2026** · Global, online qualifiers\n Grand Finale venue: **Sir M V School of Architecture, Design and Planning, Bengaluru**",
+      "status": "verified"
+    },
+    {
+      "id": "finding-3bb5cdd0d82b8bc9",
+      "eventId": "event-a3a1819b1825",
+      "role": "requirements",
+      "field": "deadline",
+      "value": "2026-11-30T23:59:00+05:30",
+      "sourceId": "source-requirements-432f30da71ae",
+      "quote": "Stage 1 proposals close **30 November 2026, 23:59 IST**.",
+      "status": "verified"
+    },
+    {
+      "id": "finding-b0b09dc9c050b18d",
+      "eventId": "event-a3a1819b1825",
+      "role": "requirements",
+      "field": "timezone",
+      "value": "Asia/Kolkata",
+      "sourceId": "source-requirements-432f30da71ae",
+      "quote": "All deadlines 23:59 Indian Standard Time.",
+      "status": "verified"
+    },
+    {
+      "id": "finding-260b6aff1eedaa56",
+      "eventId": "event-a3a1819b1825",
+      "role": "requirements",
+      "field": "eligibility",
+      "value": "open",
+      "sourceId": "source-requirements-432f30da71ae",
+      "quote": "Who can enter?\nAnyone, anywhere. Teams of 2 to 6. Students, start-ups, independent builders and corporate teams each compete in their own category.",
+      "status": "verified"
+    },
+    {
+      "id": "finding-2d811051cbe870a3",
+      "eventId": "event-dc2e3f99c503",
+      "role": "comparison",
+      "field": "prizes",
+      "value": "Cash and credit prizes including a $12,000 USD 1st Place Grand Prize, $8,000 USD 2nd Place, $5,000 USD 3rd Place, several $5,000 USD Honorable Mention category prizes, and multiple sponsor-specific prizes such as cash, APIMatic subscriptions, and Render credits.",
+      "sourceId": "source-comparison-2a2ae0098354",
+      "quote": "| 1st Place | $12,000 USD | 1 | All Eligible Submissions |\n| 2nd Place | $8,000 USD | 1 | All Eligible Submissions |\n| 3rd Place | $5,000 USD | 1 | All Eligible Submissions |\n| Honorable Mention Prizes | | | |\n| Most Creative | $5,000 USD | 1 | All Eligible Submissions |\n| Most Impactful | $5,000 USD | 1 | All Eligible Submissions |\n| Best Demo Delivery | $5,000 USD | 1 | All Eligible Submissions |\n| Best Use of PayPal + AI | $5,000 USD | 1 | All Eligible Submissions |\n| Best Use of Agentic Commerce | $5,000 USD | 1 | All Eligible Submissions |\n| Sponsor Prizes | | | |\n| Best Use of AG Grid - 1st Place | $5,000 USD | 1 | All Eligible Submissions that use any AG Grid tools |\n| Best Use of AG Grid - 2nd Place | $2,000 USD | 1 | All Eligible Submissions that use any AG Grid tools |\n| Best Use of AG Grid - 3rd Place | $1,000 USD | 3 | All Eligible Submissions that use any AG Grid tools |\n| Best Use of APIMatic | $1,000 USD + 6 months of APIMatic business subscription | 3 | All Eligible Submissions that use any APIMatic tools |\n| Best Use of Bryntum | $1,000 USD | 3 | All Eligible Submissions that use any Bryntum tools |\n| Best Use of Channel3 | $1,500 USD | 1 | All Eligible Submissions that use any Channel3 tools |\n| Best Use of Render - 1st Place | $1000 Render credits | 1 | All Eligible Submissions that use any Render tools |\n| Best Use of Render - 2nd Place | $750 Render credits | 1 | All Eligible Submissions that use any Render tools |\n| Best Use of Render - 3rd Place | $500 Render credits | 1 | All Eligible Submissions that use any Render tools |",
+      "status": "verified"
+    },
+    {
+      "id": "finding-30b76737ae042260",
+      "eventId": "event-dc2e3f99c503",
+      "role": "comparison",
+      "field": "judging",
+      "value": "Judging uses a two-stage process; eligible submissions that pass an initial pass/fail viability check are scored by judges in Stage Two based on equally weighted criteria: Technological Implementation, Design, Potential Impact, Innovation/Idea, and Presentation, with tie-breaking based on higher scores in the listed criteria.",
+      "sourceId": "source-comparison-2a2ae0098354",
+      "quote": "Stage One) The first stage will determine via pass/fail whether the ideas meet a baseline level of viability, in that the Project reasonably fits the theme and reasonably applies the required APIs/SDKs featured in the Hackathon.\n\nStage Two) All Submissions that pass Stage One will be evaluated in Stage Two based on the following equally weighted criteria (the “Judging Criteria”):\n\nEntries will be judged on the following equally weighted criteria, and according to the sole and absolute discretion of the judges:\n\n- Technological Implementation: How thoroughly and skillfully does the project use PayPal Developer Platform and AI tool(s)? Does the project reflect genuine effort and a working, non-trivial implementation?\n- Design: Does the project deliver a complete, coherent product experience — not just a technical proof of concept?\n- Potential Impact: Does the project make a credible, specific case for solving a real problem for a real audience — and does the solution actually address that problem based on what's demonstrated?\n- Innovation/Idea: How creative and novel is the concept and does the project differ from existing concepts?\n- Presentation: Does the video clearly demonstrate the project working end-to-end? Does the pitch communicate what problem is solved, who it's for, and why it matters? Is the overall presentation easy to follow?\n\nThe scores from the Judges will determine the potential winners of the applicable prizes.",
+      "status": "verified"
+    },
+    {
+      "id": "finding-7d1dc3b8c3fcf17a",
+      "eventId": "event-dc2e3f99c503",
+      "role": "comparison",
+      "field": "deliverables",
+      "value": "Required deliverables include: a project that integrates the PayPal developer platform with an AI tool, a text description explaining features and functionality, access to a functional demo via setup instructions or hosted URL, a public open-source code repository with all necessary source code, assets, instructions, and license, and a demonstration video under three minutes showing the project functioning on its target device and hosted publicly on YouTube.",
+      "sourceId": "source-comparison-2a2ae0098354",
+      "quote": "Submission Requirements\n\nSubmissions to the Hackathon must meet the following requirements:\n\n- Include a Project built with the required developer tools and meets the above Project Requirements.\n- Include a text description that should explain the features and functionality of your Project.\n- Provide access to a functional demo of your application. Your project does not need to be publicly hosted or deployed — but judges must be able to actually run or interact with a working build.\n\n- This can be satisfied through clear, complete setup and run instructions in your code repository (so judges can build and run it themselves) OR\n- A hosted demo URL.\n- A design mockup, static prototype, or non-functional demo does not meet this requirement.\n- Provide a URL to your public code repository for judging and testing on GitHub, Bitbucket, or Gitlab.\n\n- The repository must contain all necessary source code, assets, and instructions required for the project to be functional.\n- The repository must be public and open source by including an open source license file. This license should be detectable and visible at the top of the repository page (in the About section).\n- Include a demonstration video of your Project. The video portion of the Submission:\n\n- should be less than three (3) minutes. Judges are not required to watch beyond three minutes\n- should include footage that shows the Project functioning on the device for which it was built\n- must be uploaded to and made publicly visible on YouTube and a link to the video must be provided on the submission form on the Hackathon Website; and\n- must not include third party trademarks, or copyrighted music or other material unless the Entrant has permission to use such material.",
+      "status": "verified"
+    },
+    {
+      "id": "finding-d46c3d15dabb07da",
+      "eventId": "event-533e48bce737",
+      "role": "comparison",
+      "field": "judging",
+      "value": "Entries are scored from 1 to 5 on four equally weighted criteria (Execution, Integration, Usefulness, Craft) and judged by the Reactive team, with any guest judges to be announced on the page.",
+      "sourceId": "source-comparison-4ba6bd4bd7ba",
+      "quote": "Every entry is scored from 1 to 5 on four equally weighted criteria:\n\n- **Execution:** Does it run? We want to see the reactive transactions and the callbacks they trigger on-chain. Entries without them aren't scored further.\n- **Integration:** Does the reactive contract do real work, or is it bolted on? Each track's brief says what this means there.\n- **Usefulness:** Does it solve a problem real users have?\n- **Craft:** Readable code, a working demo, and documentation someone else could follow.\n\nEntries are judged by Reactive team, and we'll announce any guest judges on this page.",
+      "status": "verified"
+    },
+    {
+      "id": "finding-4606fb2ed2ddf760",
+      "eventId": "event-533e48bce737",
+      "role": "comparison",
+      "field": "deliverables",
+      "value": "Submissions must be made on the event page and include a link to a public repository, deployed contract addresses, a few transaction hashes showing the full loop from origin event to callback, and a demo video under three minutes. Repositories must be public and open-source by submission time.",
+      "sourceId": "source-comparison-4ba6bd4bd7ba",
+      "quote": "Submit your build on this page with:\n\n- A link to your public repository\n- Deployed contract addresses\n- A few transaction hashes showing the full loop, from origin event to callback\n- A demo video under three minutes\n\n# Ground Rules\n\n- Repositories need to be **public** and **open-source** by the time you submit.",
+      "status": "verified"
+    }
+  ],
+  "roles": [
+    {
+      "role": "discovery",
+      "status": "complete",
+      "startedAt": "2026-11-11T05:26:05.858Z",
+      "completedAt": "2026-11-11T05:26:17.548Z",
+      "queries": [
+        "online hackathon November 2026 December 2026 Devpost deadline as of 2026-11-11",
+        "upcoming hackathon December 2026 prizes official",
+        "university student hackathon official upcoming dates eligibility"
+      ],
+      "candidates": [
+        {
+          "id": "event-dc2e3f99c503",
+          "name": "PayPal AI Hackathon",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "sourceUrls": [],
+          "rationale": "This is an official Devpost-hosted online hackathon page (rules section) for the PayPal AI Hackathon. The rules explicitly list a submission period ending November 12, 2026, and a judging period running into December 2026, with winners announced around December 21, 2026. As of the query date (2026-11-11), the submission deadline is still upcoming, so this qualifies as an active, real online hackathon tied to late 2026."
+        },
+        {
+          "id": "event-0fdee1a85856",
+          "name": "Global AI Builder’s Challenge",
+          "url": "https://global-ai-builders-challenge.devpost.com",
+          "sourceUrls": [],
+          "rationale": "This is the main Devpost event page for the Global AI Builder’s Challenge, an online AI-focused hackathon for students 13+ run November 21–28, 2026. The snippet specifies a submission deadline of November 28, 2026 and winners announced December 5, 2026. Being a dedicated Devpost subdomain with concrete dates and schedule, it is a real, upcoming online hackathon spanning late November and early December 2026."
+        },
+        {
+          "id": "event-086660a38eab",
+          "name": "Build, Ship, Shape: Amazon Developer Hackathon 2026",
+          "url": "https://amazonappdev2026.devpost.com/rules",
+          "sourceUrls": [],
+          "rationale": "This is the official Devpost rules page for Amazon’s 2026 developer hackathon. It documents a submission period ending October 23, 2026, with judging through November 20, 2026 and winners announced around December 3, 2026. Although project submissions close before the query date, judging and prize announcements are scheduled in early December 2026, making it a recently concluded online hackathon with outcomes in that time window. The Devpost subdomain and detailed timing confirm it is a real, formally organized event."
+        },
+        {
+          "id": "event-533e48bce737",
+          "name": "Reactive Omni Buildathon",
+          "url": "https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+          "sourceUrls": [],
+          "rationale": "This is the official DoraHacks event-detail page for the Reactive Omni Buildathon, described as a month-long virtual buildathon from November 5 to December 5, 2026, with an online submission deadline of December 5, 2026 and $5,500 in prizes. DoraHacks is a well-known hackathon platform, and this page carries full schedule and prize-track information, indicating a legitimate global online hackathon running through December 2026."
+        },
+        {
+          "id": "event-a3a1819b1825",
+          "name": "GreenMind Sustainable AI Hackathon 2.0",
+          "url": "https://greencomputingfoundation.org/greenmind-hackathon",
+          "sourceUrls": [],
+          "rationale": "This is an official event page hosted by the Green Computing Foundation for the “Sustainable AI Hackathon 2.0 (GreenMind 2.0)”. The page specifies an online global qualifier stage from December 1–15, 2026, with stage-1 proposals due November 30, 2026 and a multi-stage schedule, plus a December 14–15 in-person finale in Bengaluru. With dates, prize breakdowns, and multi-stage submission deadlines clearly listed, this is a real hybrid hackathon centered on an online competition phase in December 2026."
+        }
+      ],
+      "sources": [],
+      "findings": [],
+      "errors": []
+    },
+    {
+      "role": "requirements",
+      "status": "complete",
+      "startedAt": "2026-11-11T05:26:18.498Z",
+      "completedAt": "2026-11-11T05:26:43.315Z",
+      "queries": [
+        "PayPal AI Hackathon: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+        "Global AI Builder’s Challenge: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+        "Build, Ship, Shape: Amazon Developer Hackathon 2026: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+        "Reactive Omni Buildathon: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+        "GreenMind Sustainable AI Hackathon 2.0: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page"
+      ],
+      "candidates": [
+        {
+          "id": "event-dc2e3f99c503",
+          "name": "PayPal AI Hackathon",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "sourceUrls": [],
+          "rationale": "This is an official Devpost-hosted online hackathon page (rules section) for the PayPal AI Hackathon. The rules explicitly list a submission period ending November 12, 2026, and a judging period running into December 2026, with winners announced around December 21, 2026. As of the query date (2026-11-11), the submission deadline is still upcoming, so this qualifies as an active, real online hackathon tied to late 2026."
+        },
+        {
+          "id": "event-0fdee1a85856",
+          "name": "Global AI Builder’s Challenge",
+          "url": "https://global-ai-builders-challenge.devpost.com",
+          "sourceUrls": [],
+          "rationale": "This is the main Devpost event page for the Global AI Builder’s Challenge, an online AI-focused hackathon for students 13+ run November 21–28, 2026. The snippet specifies a submission deadline of November 28, 2026 and winners announced December 5, 2026. Being a dedicated Devpost subdomain with concrete dates and schedule, it is a real, upcoming online hackathon spanning late November and early December 2026."
+        },
+        {
+          "id": "event-086660a38eab",
+          "name": "Build, Ship, Shape: Amazon Developer Hackathon 2026",
+          "url": "https://amazonappdev2026.devpost.com/rules",
+          "sourceUrls": [],
+          "rationale": "This is the official Devpost rules page for Amazon’s 2026 developer hackathon. It documents a submission period ending October 23, 2026, with judging through November 20, 2026 and winners announced around December 3, 2026. Although project submissions close before the query date, judging and prize announcements are scheduled in early December 2026, making it a recently concluded online hackathon with outcomes in that time window. The Devpost subdomain and detailed timing confirm it is a real, formally organized event."
+        },
+        {
+          "id": "event-533e48bce737",
+          "name": "Reactive Omni Buildathon",
+          "url": "https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+          "sourceUrls": [],
+          "rationale": "This is the official DoraHacks event-detail page for the Reactive Omni Buildathon, described as a month-long virtual buildathon from November 5 to December 5, 2026, with an online submission deadline of December 5, 2026 and $5,500 in prizes. DoraHacks is a well-known hackathon platform, and this page carries full schedule and prize-track information, indicating a legitimate global online hackathon running through December 2026."
+        },
+        {
+          "id": "event-a3a1819b1825",
+          "name": "GreenMind Sustainable AI Hackathon 2.0",
+          "url": "https://greencomputingfoundation.org/greenmind-hackathon",
+          "sourceUrls": [],
+          "rationale": "This is an official event page hosted by the Green Computing Foundation for the “Sustainable AI Hackathon 2.0 (GreenMind 2.0)”. The page specifies an online global qualifier stage from December 1–15, 2026, with stage-1 proposals due November 30, 2026 and a multi-stage schedule, plus a December 14–15 in-person finale in Bengaluru. With dates, prize breakdowns, and multi-stage submission deadlines clearly listed, this is a real hybrid hackathon centered on an online competition phase in December 2026."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-requirements-2a2ae0098354",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "title": "PayPal AI Hackathon",
+          "retrievedAt": "2026-11-11T05:26:20.396Z",
+          "query": "PayPal AI Hackathon: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+          "contentHash": "00eb72432cb6c9c3d079c6bdee83c643aa443e66c1753ae14122ece43e242b37",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-2a2ae0098354.md"
+        },
+        {
+          "id": "source-requirements-22a831aa55af",
+          "url": "https://global-ai-builders-challenge.devpost.com",
+          "title": "Global AI Builder’s Challenge",
+          "retrievedAt": "2026-11-11T05:26:25.222Z",
+          "query": "Global AI Builder’s Challenge: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+          "contentHash": "a183c5c41071f93f678b94b2f630393b5b9268ea216bdfa8f2449b5270e5362c",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-22a831aa55af.md"
+        },
+        {
+          "id": "source-requirements-1c8a06ddddea",
+          "url": "https://amazonappdev2026.devpost.com/rules",
+          "title": "Build, Ship, Shape: Amazon Developer Hackathon 2026",
+          "retrievedAt": "2026-11-11T05:26:31.264Z",
+          "query": "Build, Ship, Shape: Amazon Developer Hackathon 2026: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+          "contentHash": "fd3c550a118fcd548bbb5cc73a2018663cdd8e9d3d4ee78a9aceb41def1bf429",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-1c8a06ddddea.md"
+        },
+        {
+          "id": "source-requirements-4ba6bd4bd7ba",
+          "url": "https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+          "title": "Reactive Omni Buildathon",
+          "retrievedAt": "2026-11-11T05:26:37.876Z",
+          "query": "Reactive Omni Buildathon: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+          "contentHash": "cc3b10f93b043f75c04e3a4a1f4acf1ed82d486211c27c01b5259cfcd84c72a0",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-4ba6bd4bd7ba.md"
+        },
+        {
+          "id": "source-requirements-432f30da71ae",
+          "url": "https://greencomputingfoundation.org/greenmind-hackathon",
+          "title": "GreenMind Sustainable AI Hackathon 2.0",
+          "retrievedAt": "2026-11-11T05:26:39.940Z",
+          "query": "GreenMind Sustainable AI Hackathon 2.0: verify location, attendanceMode, eventDates, deadline, timezone, eligibility against official page",
+          "contentHash": "35332f8d8cf6fd810718e9f8d06c26991e5aa894a8d585642b784b8fd17a541f",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/requirements/pages/source-requirements-432f30da71ae.md"
+        }
+      ],
+      "findings": [
+        {
+          "id": "finding-38dbdc79596d9ba6",
+          "eventId": "event-dc2e3f99c503",
+          "role": "requirements",
+          "field": "location",
+          "value": "Online; void in Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea, and any other comprehensively sanctioned country",
+          "sourceId": "source-requirements-2a2ae0098354",
+          "quote": "Individuals who are residents of, or Organizations domiciled in, a country, state, province or territory where the laws of the United States or local law prohibits participating or receiving a prize in the Hackathon (including, but not limited to, Brazil, Quebec, Russia, Crimea, Cuba, Iran, and North Korea and any other country which is comprehensively sanctioned by the U.S. Treasury’s Office of Foreign Assets Control)",
+          "status": "verified"
+        },
+        {
+          "id": "finding-55040ef8e701dbde",
+          "eventId": "event-dc2e3f99c503",
+          "role": "requirements",
+          "field": "attendanceMode",
+          "value": "online",
+          "sourceId": "source-requirements-2a2ae0098354",
+          "quote": "Entrants may enter by visiting paypalaihackathon.devpost.com (“Hackathon Website”) and following the below steps:",
+          "status": "verified"
+        },
+        {
+          "id": "finding-3737ba093fac4147",
+          "eventId": "event-dc2e3f99c503",
+          "role": "requirements",
+          "field": "eventDates",
+          "value": "Submission Period: October 1, 2026 – November 12, 2026; Judging Period: December 1, 2026 – December 15, 2026; Winners announced on or around December 21, 2026",
+          "sourceId": "source-requirements-2a2ae0098354",
+          "quote": "Submission Period: Thursday Oct 1, 2026 (9:15 am Pacific Time) – Thursday Nov 12, 2026 (12:00 pm Pacific Time) (“Submission Period”).\n\nJudging Period: Tuesday Dec 1, 2026 (2:00 pm Pacific Time) – Tuesday Dec 15, 2026 (8:00 am Pacific Time) (“Judging Period”).\n\nWinners Announced: On or around Monday, Dec 21, 2026 (2:00 pm Pacific Time).",
+          "status": "verified"
+        },
+        {
+          "id": "finding-cec46e4ed72a22c2",
+          "eventId": "event-dc2e3f99c503",
+          "role": "requirements",
+          "field": "deadline",
+          "value": "2026-11-12T12:00:00-08:00",
+          "sourceId": "source-requirements-2a2ae0098354",
+          "quote": "Thursday Nov 12, 2026 (12:00 pm Pacific Time)",
+          "status": "verified"
+        },
+        {
+          "id": "finding-551adcc56ff257ae",
+          "eventId": "event-dc2e3f99c503",
+          "role": "requirements",
+          "field": "timezone",
+          "value": "Pacific Time",
+          "sourceId": "source-requirements-2a2ae0098354",
+          "quote": "Pacific Time",
+          "status": "verified"
+        },
+        {
+          "id": "finding-66545947940fd6f9",
+          "eventId": "event-dc2e3f99c503",
+          "role": "requirements",
+          "field": "eligibility",
+          "value": "open",
+          "sourceId": "source-requirements-2a2ae0098354",
+          "quote": "The Hackathon IS open to:\n\n- Individuals who are at least the age of majority where they reside as of the time of entry (“Eligible Individuals”);\n- Teams of Eligible Individuals (“Teams”); and\n- Organizations (including corporations, not-for-profit corporations and other nonprofit organizations, limited liability companies, partnerships, and other legal entities) that exist and have been organized or incorporated at the time of entry.",
+          "status": "verified"
+        },
+        {
+          "id": "finding-988fd8fd1fd3ced9",
+          "eventId": "event-0fdee1a85856",
+          "role": "requirements",
+          "field": "attendanceMode",
+          "value": "online",
+          "sourceId": "source-requirements-22a831aa55af",
+          "quote": "Global AI Builder’s Challenge is a free online hackathon",
+          "status": "verified"
+        },
+        {
+          "id": "finding-f80008122afb866d",
+          "eventId": "event-0fdee1a85856",
+          "role": "requirements",
+          "field": "deadline",
+          "value": "2026-11-28T15:00:00-08:00",
+          "sourceId": "source-requirements-22a831aa55af",
+          "quote": "The submission deadline is November 28, 2026, at 3:00 p.m. PST (America/Los_Angeles).",
+          "status": "verified"
+        },
+        {
+          "id": "finding-cc22235955e9885c",
+          "eventId": "event-0fdee1a85856",
+          "role": "requirements",
+          "field": "timezone",
+          "value": "America/Los_Angeles",
+          "sourceId": "source-requirements-22a831aa55af",
+          "quote": "The submission deadline is November 28, 2026, at 3:00 p.m. PST (America/Los_Angeles).",
+          "status": "verified"
+        },
+        {
+          "id": "finding-bfad2c986d069d9b",
+          "eventId": "event-086660a38eab",
+          "role": "requirements",
+          "field": "location",
+          "value": "Online; sponsored from Seattle, Washington, USA",
+          "sourceId": "source-requirements-1c8a06ddddea",
+          "quote": "Sponsor: Amazon Developer, 410 Terry Avenue North, Seattle, Washington 98109",
+          "status": "verified"
+        },
+        {
+          "id": "finding-3a32168baa629856",
+          "eventId": "event-086660a38eab",
+          "role": "requirements",
+          "field": "attendanceMode",
+          "value": "online",
+          "sourceId": "source-requirements-1c8a06ddddea",
+          "quote": "Entrants may enter by visiting [amazonappdev2026.devpost.com](http://amazonappdev2026.devpost.com) (“Hackathon Website”) and following the below steps:",
+          "status": "verified"
+        },
+        {
+          "id": "finding-a439b51245f0fe76",
+          "eventId": "event-086660a38eab",
+          "role": "requirements",
+          "field": "eventDates",
+          "value": "Submission Period: August 31, 2026 – October 23, 2026; Judging Period: November 9, 2026 – November 20, 2026; Winners announced on or around December 3, 2026",
+          "sourceId": "source-requirements-1c8a06ddddea",
+          "quote": "Submission Period: Monday, August 31, 2026 (10:15 am Pacific Time) – Friday, October 23, 2026 (12:00 pm Pacific Time) (“Submission Period”).\n\nJudging Period: Monday, November 9, 2026 (12:00 pm Pacific Time) – Friday, November 20, 2026 (12:00 pm Pacific Time) (“Judging Period”).\n\nWinners Announced: On or around Thursday, December 3, 2026 (12:00 pm Pacific Time).",
+          "status": "verified"
+        },
+        {
+          "id": "finding-5d405d11d6a31854",
+          "eventId": "event-086660a38eab",
+          "role": "requirements",
+          "field": "deadline",
+          "value": "2026-10-23T12:00:00-07:00",
+          "sourceId": "source-requirements-1c8a06ddddea",
+          "quote": "Friday, October 23, 2026 (12:00 pm Pacific Time) (“Submission Period”).",
+          "status": "verified"
+        },
+        {
+          "id": "finding-2fe7955807c22af7",
+          "eventId": "event-086660a38eab",
+          "role": "requirements",
+          "field": "timezone",
+          "value": "Pacific Time",
+          "sourceId": "source-requirements-1c8a06ddddea",
+          "quote": "(10:15 am Pacific Time)",
+          "status": "verified"
+        },
+        {
+          "id": "finding-33627e0d3b5e8265",
+          "eventId": "event-086660a38eab",
+          "role": "requirements",
+          "field": "eligibility",
+          "value": "open",
+          "sourceId": "source-requirements-1c8a06ddddea",
+          "quote": "The Hackathon IS open to:\n\n- Individuals who are at least the age of majority where they reside as of the time of entry (“Eligible Individuals”);\n- Teams of Eligible Individuals (“Teams”); and\n- Organizations (including corporations, not-for-profit corporations and other nonprofit organizations, limited liability companies, partnerships, and other legal entities) that exist and have been organized or incorporated at the time of entry.",
+          "status": "verified"
+        },
+        {
+          "id": "finding-64f67d0612e92675",
+          "eventId": "event-533e48bce737",
+          "role": "requirements",
+          "field": "location",
+          "value": "Virtual",
+          "sourceId": "source-requirements-4ba6bd4bd7ba",
+          "quote": "Virtual",
+          "status": "verified"
+        },
+        {
+          "id": "finding-f60170755fa70104",
+          "eventId": "event-533e48bce737",
+          "role": "requirements",
+          "field": "attendanceMode",
+          "value": "online",
+          "sourceId": "source-requirements-4ba6bd4bd7ba",
+          "quote": "Virtual",
+          "status": "verified"
+        },
+        {
+          "id": "finding-8f0449eab86e517b",
+          "eventId": "event-533e48bce737",
+          "role": "requirements",
+          "field": "eventDates",
+          "value": "From November 5th to December 5th, 2026",
+          "sourceId": "source-requirements-4ba6bd4bd7ba",
+          "quote": "From **November 5th** to **December 5th**",
+          "status": "verified"
+        },
+        {
+          "id": "finding-38864fd33e55a088",
+          "eventId": "event-533e48bce737",
+          "role": "requirements",
+          "field": "deadline",
+          "value": "2026-12-05T20:00:00Z",
+          "sourceId": "source-requirements-4ba6bd4bd7ba",
+          "quote": "Deadline\n\n2026/12/05 20:00",
+          "status": "verified"
+        },
+        {
+          "id": "finding-3974727e871cf133",
+          "eventId": "event-533e48bce737",
+          "role": "requirements",
+          "field": "timezone",
+          "value": "UTC",
+          "sourceId": "source-requirements-4ba6bd4bd7ba",
+          "quote": "event timeline (UTC)",
+          "status": "verified"
+        },
+        {
+          "id": "finding-7cb7a2bc11cae89a",
+          "eventId": "event-a3a1819b1825",
+          "role": "requirements",
+          "field": "location",
+          "value": "Global (online) and Sir M V School of Architecture, Design and Planning, Bengaluru, India",
+          "sourceId": "source-requirements-432f30da71ae",
+          "quote": "**1 – 15 December 2026** · Global, online qualifiers\n Grand Finale venue: **Sir M V School of Architecture, Design and Planning, Bengaluru**",
+          "status": "verified"
+        },
+        {
+          "id": "finding-6756bbeb14e745e7",
+          "eventId": "event-a3a1819b1825",
+          "role": "requirements",
+          "field": "attendanceMode",
+          "value": "hybrid",
+          "sourceId": "source-requirements-432f30da71ae",
+          "quote": "**1 – 15 December 2026** · Global, online qualifiers\n Grand Finale venue: **Sir M V School of Architecture, Design and Planning, Bengaluru**",
+          "status": "verified"
+        },
+        {
+          "id": "finding-3bb5cdd0d82b8bc9",
+          "eventId": "event-a3a1819b1825",
+          "role": "requirements",
+          "field": "deadline",
+          "value": "2026-11-30T23:59:00+05:30",
+          "sourceId": "source-requirements-432f30da71ae",
+          "quote": "Stage 1 proposals close **30 November 2026, 23:59 IST**.",
+          "status": "verified"
+        },
+        {
+          "id": "finding-b0b09dc9c050b18d",
+          "eventId": "event-a3a1819b1825",
+          "role": "requirements",
+          "field": "timezone",
+          "value": "Asia/Kolkata",
+          "sourceId": "source-requirements-432f30da71ae",
+          "quote": "All deadlines 23:59 Indian Standard Time.",
+          "status": "verified"
+        },
+        {
+          "id": "finding-260b6aff1eedaa56",
+          "eventId": "event-a3a1819b1825",
+          "role": "requirements",
+          "field": "eligibility",
+          "value": "open",
+          "sourceId": "source-requirements-432f30da71ae",
+          "quote": "Who can enter?\nAnyone, anywhere. Teams of 2 to 6. Students, start-ups, independent builders and corporate teams each compete in their own category.",
+          "status": "verified"
+        }
+      ],
+      "errors": [
+        "Rejected unsupported claim on https://global-ai-builders-challenge.devpost.com",
+        "Rejected unsupported claim on https://global-ai-builders-challenge.devpost.com",
+        "Rejected unsupported claim on https://global-ai-builders-challenge.devpost.com",
+        "Rejected unsupported claim on https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+        "Rejected unsupported claim on https://greencomputingfoundation.org/greenmind-hackathon"
+      ]
+    },
+    {
+      "role": "comparison",
+      "status": "complete",
+      "startedAt": "2026-11-11T05:26:18.498Z",
+      "completedAt": "2026-11-11T05:27:07.377Z",
+      "queries": [
+        "PayPal AI Hackathon: verify prizes, judging, deliverables against official page",
+        "Global AI Builder’s Challenge: verify prizes, judging, deliverables against official page",
+        "Build, Ship, Shape: Amazon Developer Hackathon 2026: verify prizes, judging, deliverables against official page",
+        "Reactive Omni Buildathon: verify prizes, judging, deliverables against official page",
+        "GreenMind Sustainable AI Hackathon 2.0: verify prizes, judging, deliverables against official page"
+      ],
+      "candidates": [
+        {
+          "id": "event-dc2e3f99c503",
+          "name": "PayPal AI Hackathon",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "sourceUrls": [],
+          "rationale": "This is an official Devpost-hosted online hackathon page (rules section) for the PayPal AI Hackathon. The rules explicitly list a submission period ending November 12, 2026, and a judging period running into December 2026, with winners announced around December 21, 2026. As of the query date (2026-11-11), the submission deadline is still upcoming, so this qualifies as an active, real online hackathon tied to late 2026."
+        },
+        {
+          "id": "event-0fdee1a85856",
+          "name": "Global AI Builder’s Challenge",
+          "url": "https://global-ai-builders-challenge.devpost.com",
+          "sourceUrls": [],
+          "rationale": "This is the main Devpost event page for the Global AI Builder’s Challenge, an online AI-focused hackathon for students 13+ run November 21–28, 2026. The snippet specifies a submission deadline of November 28, 2026 and winners announced December 5, 2026. Being a dedicated Devpost subdomain with concrete dates and schedule, it is a real, upcoming online hackathon spanning late November and early December 2026."
+        },
+        {
+          "id": "event-086660a38eab",
+          "name": "Build, Ship, Shape: Amazon Developer Hackathon 2026",
+          "url": "https://amazonappdev2026.devpost.com/rules",
+          "sourceUrls": [],
+          "rationale": "This is the official Devpost rules page for Amazon’s 2026 developer hackathon. It documents a submission period ending October 23, 2026, with judging through November 20, 2026 and winners announced around December 3, 2026. Although project submissions close before the query date, judging and prize announcements are scheduled in early December 2026, making it a recently concluded online hackathon with outcomes in that time window. The Devpost subdomain and detailed timing confirm it is a real, formally organized event."
+        },
+        {
+          "id": "event-533e48bce737",
+          "name": "Reactive Omni Buildathon",
+          "url": "https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+          "sourceUrls": [],
+          "rationale": "This is the official DoraHacks event-detail page for the Reactive Omni Buildathon, described as a month-long virtual buildathon from November 5 to December 5, 2026, with an online submission deadline of December 5, 2026 and $5,500 in prizes. DoraHacks is a well-known hackathon platform, and this page carries full schedule and prize-track information, indicating a legitimate global online hackathon running through December 2026."
+        },
+        {
+          "id": "event-a3a1819b1825",
+          "name": "GreenMind Sustainable AI Hackathon 2.0",
+          "url": "https://greencomputingfoundation.org/greenmind-hackathon",
+          "sourceUrls": [],
+          "rationale": "This is an official event page hosted by the Green Computing Foundation for the “Sustainable AI Hackathon 2.0 (GreenMind 2.0)”. The page specifies an online global qualifier stage from December 1–15, 2026, with stage-1 proposals due November 30, 2026 and a multi-stage schedule, plus a December 14–15 in-person finale in Bengaluru. With dates, prize breakdowns, and multi-stage submission deadlines clearly listed, this is a real hybrid hackathon centered on an online competition phase in December 2026."
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-comparison-2a2ae0098354",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "title": "PayPal AI Hackathon",
+          "retrievedAt": "2026-11-11T05:26:21.303Z",
+          "query": "PayPal AI Hackathon: verify prizes, judging, deliverables against official page",
+          "contentHash": "00eb72432cb6c9c3d079c6bdee83c643aa443e66c1753ae14122ece43e242b37",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-2a2ae0098354.md"
+        },
+        {
+          "id": "source-comparison-22a831aa55af",
+          "url": "https://global-ai-builders-challenge.devpost.com",
+          "title": "Global AI Builder’s Challenge",
+          "retrievedAt": "2026-11-11T05:26:32.696Z",
+          "query": "Global AI Builder’s Challenge: verify prizes, judging, deliverables against official page",
+          "contentHash": "a183c5c41071f93f678b94b2f630393b5b9268ea216bdfa8f2449b5270e5362c",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-22a831aa55af.md"
+        },
+        {
+          "id": "source-comparison-1c8a06ddddea",
+          "url": "https://amazonappdev2026.devpost.com/rules",
+          "title": "Build, Ship, Shape: Amazon Developer Hackathon 2026",
+          "retrievedAt": "2026-11-11T05:26:41.426Z",
+          "query": "Build, Ship, Shape: Amazon Developer Hackathon 2026: verify prizes, judging, deliverables against official page",
+          "contentHash": "fd3c550a118fcd548bbb5cc73a2018663cdd8e9d3d4ee78a9aceb41def1bf429",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-1c8a06ddddea.md"
+        },
+        {
+          "id": "source-comparison-4ba6bd4bd7ba",
+          "url": "https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+          "title": "Reactive Omni Buildathon",
+          "retrievedAt": "2026-11-11T05:26:54.882Z",
+          "query": "Reactive Omni Buildathon: verify prizes, judging, deliverables against official page",
+          "contentHash": "cc3b10f93b043f75c04e3a4a1f4acf1ed82d486211c27c01b5259cfcd84c72a0",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-4ba6bd4bd7ba.md"
+        },
+        {
+          "id": "source-comparison-432f30da71ae",
+          "url": "https://greencomputingfoundation.org/greenmind-hackathon",
+          "title": "GreenMind Sustainable AI Hackathon 2.0",
+          "retrievedAt": "2026-11-11T05:26:58.878Z",
+          "query": "GreenMind Sustainable AI Hackathon 2.0: verify prizes, judging, deliverables against official page",
+          "contentHash": "35332f8d8cf6fd810718e9f8d06c26991e5aa894a8d585642b784b8fd17a541f",
+          "contentPath": "/research/radar-judges-2026-11-11T05-25-17-039Z-61894933/roles/comparison/pages/source-comparison-432f30da71ae.md"
+        }
+      ],
+      "findings": [
+        {
+          "id": "finding-2d811051cbe870a3",
+          "eventId": "event-dc2e3f99c503",
+          "role": "comparison",
+          "field": "prizes",
+          "value": "Cash and credit prizes including a $12,000 USD 1st Place Grand Prize, $8,000 USD 2nd Place, $5,000 USD 3rd Place, several $5,000 USD Honorable Mention category prizes, and multiple sponsor-specific prizes such as cash, APIMatic subscriptions, and Render credits.",
+          "sourceId": "source-comparison-2a2ae0098354",
+          "quote": "| 1st Place | $12,000 USD | 1 | All Eligible Submissions |\n| 2nd Place | $8,000 USD | 1 | All Eligible Submissions |\n| 3rd Place | $5,000 USD | 1 | All Eligible Submissions |\n| Honorable Mention Prizes | | | |\n| Most Creative | $5,000 USD | 1 | All Eligible Submissions |\n| Most Impactful | $5,000 USD | 1 | All Eligible Submissions |\n| Best Demo Delivery | $5,000 USD | 1 | All Eligible Submissions |\n| Best Use of PayPal + AI | $5,000 USD | 1 | All Eligible Submissions |\n| Best Use of Agentic Commerce | $5,000 USD | 1 | All Eligible Submissions |\n| Sponsor Prizes | | | |\n| Best Use of AG Grid - 1st Place | $5,000 USD | 1 | All Eligible Submissions that use any AG Grid tools |\n| Best Use of AG Grid - 2nd Place | $2,000 USD | 1 | All Eligible Submissions that use any AG Grid tools |\n| Best Use of AG Grid - 3rd Place | $1,000 USD | 3 | All Eligible Submissions that use any AG Grid tools |\n| Best Use of APIMatic | $1,000 USD + 6 months of APIMatic business subscription | 3 | All Eligible Submissions that use any APIMatic tools |\n| Best Use of Bryntum | $1,000 USD | 3 | All Eligible Submissions that use any Bryntum tools |\n| Best Use of Channel3 | $1,500 USD | 1 | All Eligible Submissions that use any Channel3 tools |\n| Best Use of Render - 1st Place | $1000 Render credits | 1 | All Eligible Submissions that use any Render tools |\n| Best Use of Render - 2nd Place | $750 Render credits | 1 | All Eligible Submissions that use any Render tools |\n| Best Use of Render - 3rd Place | $500 Render credits | 1 | All Eligible Submissions that use any Render tools |",
+          "status": "verified"
+        },
+        {
+          "id": "finding-30b76737ae042260",
+          "eventId": "event-dc2e3f99c503",
+          "role": "comparison",
+          "field": "judging",
+          "value": "Judging uses a two-stage process; eligible submissions that pass an initial pass/fail viability check are scored by judges in Stage Two based on equally weighted criteria: Technological Implementation, Design, Potential Impact, Innovation/Idea, and Presentation, with tie-breaking based on higher scores in the listed criteria.",
+          "sourceId": "source-comparison-2a2ae0098354",
+          "quote": "Stage One) The first stage will determine via pass/fail whether the ideas meet a baseline level of viability, in that the Project reasonably fits the theme and reasonably applies the required APIs/SDKs featured in the Hackathon.\n\nStage Two) All Submissions that pass Stage One will be evaluated in Stage Two based on the following equally weighted criteria (the “Judging Criteria”):\n\nEntries will be judged on the following equally weighted criteria, and according to the sole and absolute discretion of the judges:\n\n- Technological Implementation: How thoroughly and skillfully does the project use PayPal Developer Platform and AI tool(s)? Does the project reflect genuine effort and a working, non-trivial implementation?\n- Design: Does the project deliver a complete, coherent product experience — not just a technical proof of concept?\n- Potential Impact: Does the project make a credible, specific case for solving a real problem for a real audience — and does the solution actually address that problem based on what's demonstrated?\n- Innovation/Idea: How creative and novel is the concept and does the project differ from existing concepts?\n- Presentation: Does the video clearly demonstrate the project working end-to-end? Does the pitch communicate what problem is solved, who it's for, and why it matters? Is the overall presentation easy to follow?\n\nThe scores from the Judges will determine the potential winners of the applicable prizes.",
+          "status": "verified"
+        },
+        {
+          "id": "finding-7d1dc3b8c3fcf17a",
+          "eventId": "event-dc2e3f99c503",
+          "role": "comparison",
+          "field": "deliverables",
+          "value": "Required deliverables include: a project that integrates the PayPal developer platform with an AI tool, a text description explaining features and functionality, access to a functional demo via setup instructions or hosted URL, a public open-source code repository with all necessary source code, assets, instructions, and license, and a demonstration video under three minutes showing the project functioning on its target device and hosted publicly on YouTube.",
+          "sourceId": "source-comparison-2a2ae0098354",
+          "quote": "Submission Requirements\n\nSubmissions to the Hackathon must meet the following requirements:\n\n- Include a Project built with the required developer tools and meets the above Project Requirements.\n- Include a text description that should explain the features and functionality of your Project.\n- Provide access to a functional demo of your application. Your project does not need to be publicly hosted or deployed — but judges must be able to actually run or interact with a working build.\n\n- This can be satisfied through clear, complete setup and run instructions in your code repository (so judges can build and run it themselves) OR\n- A hosted demo URL.\n- A design mockup, static prototype, or non-functional demo does not meet this requirement.\n- Provide a URL to your public code repository for judging and testing on GitHub, Bitbucket, or Gitlab.\n\n- The repository must contain all necessary source code, assets, and instructions required for the project to be functional.\n- The repository must be public and open source by including an open source license file. This license should be detectable and visible at the top of the repository page (in the About section).\n- Include a demonstration video of your Project. The video portion of the Submission:\n\n- should be less than three (3) minutes. Judges are not required to watch beyond three minutes\n- should include footage that shows the Project functioning on the device for which it was built\n- must be uploaded to and made publicly visible on YouTube and a link to the video must be provided on the submission form on the Hackathon Website; and\n- must not include third party trademarks, or copyrighted music or other material unless the Entrant has permission to use such material.",
+          "status": "verified"
+        },
+        {
+          "id": "finding-d46c3d15dabb07da",
+          "eventId": "event-533e48bce737",
+          "role": "comparison",
+          "field": "judging",
+          "value": "Entries are scored from 1 to 5 on four equally weighted criteria (Execution, Integration, Usefulness, Craft) and judged by the Reactive team, with any guest judges to be announced on the page.",
+          "sourceId": "source-comparison-4ba6bd4bd7ba",
+          "quote": "Every entry is scored from 1 to 5 on four equally weighted criteria:\n\n- **Execution:** Does it run? We want to see the reactive transactions and the callbacks they trigger on-chain. Entries without them aren't scored further.\n- **Integration:** Does the reactive contract do real work, or is it bolted on? Each track's brief says what this means there.\n- **Usefulness:** Does it solve a problem real users have?\n- **Craft:** Readable code, a working demo, and documentation someone else could follow.\n\nEntries are judged by Reactive team, and we'll announce any guest judges on this page.",
+          "status": "verified"
+        },
+        {
+          "id": "finding-4606fb2ed2ddf760",
+          "eventId": "event-533e48bce737",
+          "role": "comparison",
+          "field": "deliverables",
+          "value": "Submissions must be made on the event page and include a link to a public repository, deployed contract addresses, a few transaction hashes showing the full loop from origin event to callback, and a demo video under three minutes. Repositories must be public and open-source by submission time.",
+          "sourceId": "source-comparison-4ba6bd4bd7ba",
+          "quote": "Submit your build on this page with:\n\n- A link to your public repository\n- Deployed contract addresses\n- A few transaction hashes showing the full loop, from origin event to callback\n- A demo video under three minutes\n\n# Ground Rules\n\n- Repositories need to be **public** and **open-source** by the time you submit.",
+          "status": "verified"
+        }
+      ],
+      "errors": [
+        "Rejected unsupported claim on https://global-ai-builders-challenge.devpost.com",
+        "Rejected unsupported claim on https://global-ai-builders-challenge.devpost.com",
+        "Rejected unsupported claim on https://global-ai-builders-challenge.devpost.com",
+        "Rejected unsupported claim on https://amazonappdev2026.devpost.com/rules",
+        "Rejected unsupported claim on https://amazonappdev2026.devpost.com/rules",
+        "Rejected unsupported claim on https://amazonappdev2026.devpost.com/rules",
+        "Rejected unsupported claim on https://dorahacks.io/hackathon/reactive-omni-buildathon/detail",
+        "Rejected unsupported claim on https://greencomputingfoundation.org/greenmind-hackathon",
+        "Rejected unsupported claim on https://greencomputingfoundation.org/greenmind-hackathon",
+        "Rejected unsupported claim on https://greencomputingfoundation.org/greenmind-hackathon"
+      ]
+    }
+  ],
+  "shortfall": 0
+}
