@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#153e35"><title>Radar · Find your next build</title><link rel="stylesheet" href="/styles.css"><script type="module" src="/app.js"></script></head>
+<body>
+<header><a class="brand" href="/" aria-label="Radar home"><span class="mark" aria-hidden="true">◉</span> radar<span class="brand-note"> / hackathons</span></a><a href="#cards">Explore events ↗</a></header>
+<main>
+<section class="hero"><p class="eyebrow">A little research. Your next big idea.</p><h1>Find your next<br><em>reason to build.</em></h1><p class="intro">Compare hackathons, check the details, and save the ones that spark something. Every claim comes with its source.</p><p id="identity" class="metadata">Loading research…</p><p id="shortfall" role="status"></p></section>
+<form id="filters" class="filters" aria-label="Filter hackathons">
+<label>Attendance<select id="mode" name="mode"><option value="">Any mode</option><option value="online">Online</option><option value="in-person">In person</option><option value="hybrid">Hybrid</option></select></label>
+<label>Eligibility category<select id="eligibility" name="eligibility"><option value="">Any category</option><option value="open">Open</option><option value="students">Students</option></select></label>
+<label>Deadline on or after (UTC)<input id="after" name="after" type="date"></label>
+<label class="check"><input id="saved" type="checkbox"> Saved only <span id="saved-count">0</span></label>
+<button type="reset" class="quiet">Reset filters</button>
+</form>
+<p class="note">Eligibility categories do not determine whether you qualify. Check each event’s official age, residency, team and other restrictions. Filters include only verified matching fields; “after” uses midnight UTC.</p>
+<div class="section-heading"><h2>Explore the lineup</h2><p id="result-count" role="status" aria-live="polite">Loading events…</p></div>
+<p id="error" role="alert" hidden></p><button id="retry" hidden>Try again</button>
+<section id="cards" class="cards" aria-label="Hackathon results" aria-busy="true"></section>
+<section id="detail" class="panel" aria-label="Event detail" tabindex="-1" hidden></section>
+<section id="evidence" class="panel" aria-label="Source evidence" tabindex="-1" hidden></section>
+</main><footer>Made for curious builders. Research is a snapshot; confirm current rules with the organizer.<p>Saved events stay in this browser when storage is available.</p></footer>
+</body></html>
