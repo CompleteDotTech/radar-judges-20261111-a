@@ -1,4 +1,5 @@
 import { createShortlist } from './shortlist.js';
+import { formatDate } from './dates.js';
 
 const $ = id => document.getElementById(id);
 const labels = { location: 'Location', attendanceMode: 'Attendance', eventDates: 'Event dates', deadline: 'Submission deadline', timezone: 'Timezone', eligibility: 'Eligibility category', prizes: 'Prizes', judging: 'Judging', deliverables: 'What to submit' };
@@ -8,6 +9,19 @@ function el(tag, text, className) {
   if (text !== undefined) node.textContent = String(text);
   if (className) node.className = className;
   return node;
+}
+function dateNode(value, verified = true) {
+  const formatted = formatDate(value);
+  const node = el(formatted && verified ? 'time' : 'span', verified && formatted ? formatted : 'Unknown — not verified in this research.');
+  if (typeof value === 'string') node.setAttribute('title', value);
+  if (formatted && verified) node.setAttribute('datetime', value);
+  return node;
+}
+function fieldValue(fieldName, field) {
+  if (fieldName === 'deadline' || (fieldName === 'eventDates' && /^\d{4}-\d{2}-\d{2}(?:T|$)/.test(field.value ?? ''))) {
+    return dateNode(field.value, field.status === 'verified');
+  }
+  return document.createTextNode(field.value ?? 'Unknown — not verified in this research.');
 }
 function link(text, url) {
   const node = el('a', text);
@@ -42,14 +56,15 @@ function claim(event, fieldName, research = dataset) {
   const title = el('dt', labels[fieldName]);
   title.append(el('span', field.status, `status ${field.status}`));
   const conflicting = ['conflict', 'conflicting'].includes(field.status);
-  const value = el('dd', conflicting ? 'Conflicting source statements. Review all competing findings.' : field.value ?? 'Unknown — not verified in this research.');
+  const value = el('dd');
+  value.append(conflicting ? document.createTextNode('Conflicting source statements. Review all competing findings.') : fieldValue(fieldName, field));
   if (!conflicting && field.status !== 'verified' && field.value !== null) value.append(el('p', 'Not verified in this research.'));
   for (const findingId of field.findingIds) {
     const finding = research.findings.find(item => item.id === findingId);
     const source = finding && research.sources.find(item => item.id === finding.sourceId);
     const citation = el('span', undefined, 'citation');
     if (source) {
-      citation.append(link(`Source · ${source.title}`, source.url), document.createTextNode(` · Retrieved ${source.retrievedAt}`));
+      citation.append(link(`Source · ${source.title}`, source.url), document.createTextNode(' · Retrieved '), dateNode(source.retrievedAt));
       citation.append(el('span', ` · ${findingId} · ${source.id}`));
     } else citation.textContent = `Evidence unavailable · ${findingId}`;
     value.append(citation);
@@ -61,8 +76,10 @@ function closedExample(event) {
   if (deadline.status !== 'verified' || !deadline.value) return null;
   const instant = Date.parse(deadline.value);
   const reference = Date.parse(dataset.createdAt);
-  return Number.isFinite(instant) && Number.isFinite(reference) && instant < reference
-    ? el('p', `Historical / closed example — submissions closed before this research snapshot (${dataset.createdAt}).`, 'note') : null;
+  if (!(Number.isFinite(instant) && Number.isFinite(reference) && instant < reference)) return null;
+  const note = el('p', 'Historical / closed example — submissions closed before this research snapshot (', 'note');
+  note.append(dateNode(dataset.createdAt), document.createTextNode(').'));
+  return note;
 }
 function saveButton(event) {
   const node = button('', () => {
@@ -129,8 +146,14 @@ async function openEvent(id, showEvidence) {
       for (const finding of research.findings) {
         const source = research.sources.find(item => item.id === finding.sourceId);
         const section = el('article', undefined, 'evidence-item');
-        section.append(el('h3', `${labels[finding.field] ?? finding.field} · ${finding.status}`), el('p', finding.value), el('blockquote', finding.quote));
-        if (source) section.append(link(source.title, source.url), el('p', `Retrieved ${source.retrievedAt} · Source ${source.id}`, 'metadata'));
+        const displayedValue = el('p');
+        displayedValue.append(fieldValue(finding.field, finding));
+        section.append(el('h3', `${labels[finding.field] ?? finding.field} · ${finding.status}`), displayedValue, el('blockquote', finding.quote));
+        if (source) {
+          const retrieved = el('p', 'Retrieved ', 'metadata');
+          retrieved.append(dateNode(source.retrievedAt), document.createTextNode(` · Source ${source.id}`));
+          section.append(link(source.title, source.url), retrieved);
+        }
         section.append(el('p', `Finding ${finding.id} · Role ${finding.role} · Event ${finding.eventId}`, 'metadata'));
         target.append(section);
       }
@@ -166,7 +189,10 @@ async function start() {
     let storage;
     try { storage = window.localStorage; } catch { storage = null; }
     shortlist = createShortlist(storage, dataset.runId);
-    $('identity').textContent = `Dataset run: ${dataset.runId} · Research mode: ${dataset.researchMode} · Researched ${dataset.createdAt} · Dataset ${dataset.datasetId}`;
+    $('identity').replaceChildren(document.createTextNode('Researched '), dateNode(dataset.createdAt));
+    const provenance = el('details');
+    provenance.append(el('summary', 'Research provenance'), el('p', `Dataset run: ${dataset.runId} · Research mode: ${dataset.researchMode} · Dataset ${dataset.datasetId}`));
+    $('identity').append(provenance);
     const missing = Math.max(dataset.shortfall || 0, 5 - dataset.events.length);
     $('shortfall').textContent = missing > 0 ? `Source shortfall: ${missing} event(s) missing from the target of five. Only supplied events are shown.` : 'Five researched events. Follow the evidence, then make your pick.';
     await loadEvents();
