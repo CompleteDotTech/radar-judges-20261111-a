@@ -27,9 +27,9 @@ Missing event IDs return 404. Unknown API routes return 404. Invalid filters on 
 
 ## Filters
 
-Supported query parameters: `mode=online|in-person|hybrid`, `eligibility=open|students`, and `after=YYYY-MM-DD`. Omission means no constraint; no `all` sentinel. Empty values, unsupported values, duplicate parameters, unknown parameters, malformed dates and impossible calendar dates are invalid. Pure `filterEvents` also throws `Error` for invalid options; the API validates independently before invoking it.
+Supported query parameters: `mode=online|in-person|hybrid|unknown`, `eligibility=open|student-only|unknown` (also `students` as a backward-compatible input alias for `student-only`), and `after=YYYY-MM-DD`. Omission means no constraint; no `all` sentinel. Empty values, unsupported values, duplicate parameters, unknown parameters, malformed dates and impossible calendar dates are invalid. Pure `filterEvents` also throws `Error` for invalid options; the API validates independently before invoking it.
 
-Combine active filters with AND. Mode and eligibility are exact matches against the corresponding field value **only if status is verified**. Hybrid does not match online. A constrained field with unknown or conflict status is excluded even when its value appears to match. Without a constraint, uncertain fields do not exclude the event.
+Combine active filters with AND. Research eligibility values are `student-only`, `open`, or null/unverified. Named categories match the corresponding field value **only if status is verified**; normalize the `students` input alias for comparison only, never returned research. Hybrid does not match online. `unknown` selects unverified, conflicting, missing, null or unrecognized categories for either mode or eligibility. Canonical field statuses are `verified`, `unknown`, and `conflicting`; legacy `conflict` is also recognized. Without a constraint, uncertain fields do not exclude the event.
 
 `after` is inclusive: retain verified, parseable ISO deadlines whose instant is at or after `YYYY-MM-DDT00:00:00.000Z`. The UTC boundary is deliberate; do not compare date substrings or infer a deadline from eventDates. Unknown, conflicting, null or invalid deadlines are excluded when after is active. Do not reorder or mutate events.
 
@@ -42,3 +42,7 @@ The returned object implements `list(): string[]`, `has(id): boolean`, and `togg
 ## Verification scope
 
 The architecture test verifies the scaffold, immutable supplied data and lazy dispatch using mocked sibling modules. The acceptance suite is bounded to 12 tests, uses in-process Hono requests and memory storage, and does not use the network. Sibling stubs intentionally throw; acceptance tests may fail until implementations merge. Do not weaken tests to accommodate stubs. Use TypeScript ESM relative `.js` imports and installed dependencies only.
+
+## Research presentation
+
+Eligibility categories do not determine individual eligibility; official restrictions still apply. Cards and details label verified submission deadlines earlier than `dataset.createdAt` as historical / closed examples. This snapshot reference is reproducible and does not imply current availability for other events. Keep closed records, citations, retrieval timestamps and explicit not-verified displays. Render `conflicting` as conflicting source statements and link all competing findings, including when the field value is null.
